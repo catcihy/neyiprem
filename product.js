@@ -784,15 +784,6 @@ const products = [
 
   },
   {
-    id: 87,
-    name: "Disney+ Hotstar Basic Plan - Private Basic 1 Month",
-    price: 85000,
-    originalPrice: 100000,
-    category: "Disney+ Hotstar",
-    image: "https://thinglabs.io/wp-content/uploads/2e3d33fc0eefc265131cc02158c1c69a_4096x2303_0d094a0f1-scaled.jpg",
-    description: ""
-  },
-  {
     id: 88,
     name: "Disney+ Hotstar prem Plan - Private prem 1 Month",
     price: 100000,
