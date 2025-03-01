@@ -1,4 +1,5 @@
-const products = [
+const products =
+[
   {
     id: 1,
     name: "Netflix 1 User - 1 Hari",
@@ -331,5 +332,465 @@ const products = [
     category: "AlightMotion",
     image: "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/97/12/ee/9712eec9-2cd1-e244-7de1-26c5e351bec0/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1024x1024bb.png",
     description: " "
+  },
+  {
+    id: 38,
+    name: "Canva Member - 1 Hari",
+    price: 1000,
+    originalPrice: 2000,
+    category: "Canva",
+    image: "https://th.bing.com/th/id/OIP.ARfZd0cxjhNU-yBAmoFH4QHaEK?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 39,
+    name: "Canva Member - 7 Hari",
+    price: 3000,
+    originalPrice: 5000,
+    category: "Canva",
+    image: "https://th.bing.com/th/id/OIP.ARfZd0cxjhNU-yBAmoFH4QHaEK?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 40,
+    name: "Canva Member - 1 Bulan",
+    price: 5000,
+    originalPrice: 10000,
+    category: "Canva",
+    image: "https://th.bing.com/th/id/OIP.ARfZd0cxjhNU-yBAmoFH4QHaEK?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 41,
+    name: "Canva Member - 2 Bulan",
+    price: 8000,
+    originalPrice: 15000,
+    category: "Canva",
+    image: "https://th.bing.com/th/id/OIP.ARfZd0cxjhNU-yBAmoFH4QHaEK?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 42,
+    name: "Canva Member - 3 Bulan",
+    price: 10000,
+    originalPrice: 18000,
+    category: "Canva",
+    image: "https://th.bing.com/th/id/OIP.ARfZd0cxjhNU-yBAmoFH4QHaEK?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 43,
+    name: "Canva Member - 6 Bulan",
+    price: 13000,
+    originalPrice: 22000,
+    category: "Canva",
+    image: "https://th.bing.com/th/id/OIP.ARfZd0cxjhNU-yBAmoFH4QHaEK?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 44,
+    name: "Canva Member - 1 Tahun",
+    price: 15000,
+    originalPrice: 25000,
+    category: "Canva",
+    image: "https://th.bing.com/th/id/OIP.ARfZd0cxjhNU-yBAmoFH4QHaEK?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 45,
+    name: "Canva Head - 1 Bulan",
+    price: 10000,
+    originalPrice: 20000,
+    category: "Canva",
+    image: "https://th.bing.com/th/id/OIP.ARfZd0cxjhNU-yBAmoFH4QHaEK?rs=1&pid=ImgDetMain",
+    description: "member butuh email customer untuk invate ke canva premium\ncanva head akun dari seller bisa invate 100 member"
+  },
+  {
+    id: 46,
+    name: "Picsart Sharing - 1 Bulan",
+    price: 5000,
+    originalPrice: 8000,
+    category: "Picsart",
+    image: "https://th.bing.com/th/id/OIP.T-SCn3GpqvjImMb-1DxDxwHaHa?w=171&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    description: " "
+  },
+  {
+    id: 47,
+    name: "Picsart Private - 1 Bulan",
+    price: 15000,
+    originalPrice: 25000,
+    category: "Picsart",
+    image: "https://th.bing.com/th/id/OIP.T-SCn3GpqvjImMb-1DxDxwHaHa?w=171&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    description: " "
+  },
+  {
+    id: 48,
+    name: "Viu Anti Limit - 1 Bulan",
+    price: 2000,
+    originalPrice: 5000,
+    category: "Viu",
+    image: "https://th.bing.com/th/id/OIP.1rl7Cl61xxz0VqTV1-bk4wHaEK?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 49,
+    name: "Viu Anti Limit - 3 Bulan",
+    price: 5000,
+    originalPrice: 10000,
+    category: "Viu",
+    image: "https://th.bing.com/th/id/OIP.1rl7Cl61xxz0VqTV1-bk4wHaEK?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 50,
+    name: "Viu Anti Limit - 6 Bulan",
+    price: 8000,
+    originalPrice: 15000,
+    category: "Viu",
+    image: "https://th.bing.com/th/id/OIP.1rl7Cl61xxz0VqTV1-bk4wHaEK?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 51,
+    name: "Viu Anti Limit - 1 Tahun",
+    price: 15000,
+    originalPrice: 25000,
+    category: "Viu",
+    image: "https://th.bing.com/th/id/OIP.1rl7Cl61xxz0VqTV1-bk4wHaEK?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 52,
+    name: "Spotify Famplan Full Garansi - 1 Bulan",
+    price: 20000,
+    originalPrice: 30000,
+    category: "Spotify",
+    image: "https://static.vecteezy.com/system/resources/previews/016/716/458/original/spotify-icon-free-png.png",
+    description: "Spotify Family Plan (Full Garansi) untuk 1 bulan. Email & password dari customer. Playlist, like song & followers aman jika akun belum 2x join famplan (jika sudah 2x akan replace acc, foll hilang)."
+  },
+  {
+    id: 53,
+    name: "Spotify Famplan Full Garansi - 2 Bulan",
+    price: 35000,
+    originalPrice: 50000,
+    category: "Spotify",
+    image: "https://static.vecteezy.com/system/resources/previews/016/716/458/original/spotify-icon-free-png.png",
+    description: " "
+  },
+  {
+    id: 54,
+    name: "Spotify Famplan No Garansi - 1 Bulan",
+    price: 12000,
+    originalPrice: 20000,
+    category: "Spotify",
+    image: "https://static.vecteezy.com/system/resources/previews/016/716/458/original/spotify-icon-free-png.png",
+    description: " "
+  },
+  {
+    id: 55,
+    name: "Spotify Famplan No Garansi - 2 Bulan",
+    price: 18000,
+    originalPrice: 30000,
+    category: "Spotify",
+    image: "https://static.vecteezy.com/system/resources/previews/016/716/458/original/spotify-icon-free-png.png",
+    description: "Email & password dari customer. Playlist, like song & followers aman jika akun belum 2x join famplan (jika sudah 2x akan replace acc, foll hilang)."
+  },
+  {
+    id: 56,
+    name: "Loklok Premium Sharing - 1 Bulan",
+    price: 6000,
+    originalPrice: 10000,
+    category: "Loklok",
+    image: "https://th.bing.com/th/id/OIP.io1jD2-_Gjn_G3bDMQCQ2AAAAA?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 57,
+    name: "Loklok Premium Sharing - 3 Bulan",
+    price: 18000,
+    originalPrice: 30000,
+    category: "Loklok",
+    image: "https://th.bing.com/th/id/OIP.io1jD2-_Gjn_G3bDMQCQ2AAAAA?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 58,
+    name: "Loklok Premium Private - 1 Bulan",
+    price: 30000,
+    originalPrice: 40000,
+    category: "Loklok",
+    image: "https://th.bing.com/th/id/OIP.io1jD2-_Gjn_G3bDMQCQ2AAAAA?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 59,
+    name: "WeTV Premium Sharing 6u - 1 Bulan",
+    price: 12000,
+    originalPrice: 20000,
+    category: "WeTV",
+    image: "https://www.newshubasia.com/wp-content/uploads/2020/11/WeTV.jpg",
+    description: " "
+  },
+  {
+    id: 60,
+    name: "WeTV Premium Sharing Anlim - 1 Bulan",
+    price: 18000,
+    originalPrice: 30000,
+    category: "WeTV",
+    image: "https://www.newshubasia.com/wp-content/uploads/2020/11/WeTV.jpg",
+    description: " "
+  },
+  {
+    id: 61,
+    name: "WeTV Premium Private - 1 Bulan",
+    price: 38000,
+    originalPrice: 50000,
+    category: "WeTV",
+    image: "https://www.newshubasia.com/wp-content/uploads/2020/11/WeTV.jpg",
+    description: " "
+  },
+  {
+    id: 62,
+    name: "Shortmax Premium Sharing - 7 Hari",
+    price: 25000,
+    originalPrice: 35000,
+    category: "Shortmax",
+    image: "https://th.bing.com/th?id=ODL.53931689adbee76e0c0be24c1dc6a11f&w=110&h=110&c=6&rs=1&qlt=90&o=6&dpr=1.5&pid=algoBlockDebug",
+    description: " "
+  },
+  {
+    id: 63,
+    name: "Dramabox Sharing - 1 Bulan",
+    price: 10000,
+    originalPrice: 20000,
+    category: "Dramabox",
+    image: "https://th.bing.com/th/id/OIP.DZTSC7FoDXw_2CgPaAwd1gHaD4?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 64,
+    name: "Dramabox Sharing - 3 Bulan",
+    price: 20000,
+    originalPrice: 40000,
+    category: "Dramabox",
+    image: "https://th.bing.com/th/id/OIP.DZTSC7FoDXw_2CgPaAwd1gHaD4?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 65,
+    name: "Dramabox Sharing - 6 Bulan",
+    price: 30000,
+    originalPrice: 60000,
+    category: "Dramabox",
+    image: "https://th.bing.com/th/id/OIP.DZTSC7FoDXw_2CgPaAwd1gHaD4?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 66,
+    name: "Dramabox Sharing - 12 Bulan",
+    price: 50000,
+    originalPrice: 100000,
+    category: "Dramabox",
+    image: "https://th.bing.com/th/id/OIP.DZTSC7FoDXw_2CgPaAwd1gHaD4?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 67,
+    name: "Youku Sharing - 1 Bulan",
+    price: 6000,
+    originalPrice: 10000,
+    category: "Youku",
+    image: "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/71/16/60/711660a3-911c-3780-82ea-ebe881217390/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
+    description: " "
+  },
+  {
+    id: 68,
+    name: "Youku Sharing - 3 Bulan",
+    price: 9000,
+    originalPrice: 15000,
+    category: "Youku",
+    image: "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/71/16/60/711660a3-911c-3780-82ea-ebe881217390/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
+    description: " "
+  },
+  {
+    id: 69,
+    name: "Youku Sharing - 12 Bulan",
+    price: 15000,
+    originalPrice: 25000,
+    category: "Youku",
+    image: "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/71/16/60/711660a3-911c-3780-82ea-ebe881217390/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
+    description: " "
+  },
+  {
+    id: 70,
+    name: "Bstation Sharing - 1 Bulan",
+    price: 6000,
+    originalPrice: 10000,
+    category: "Bstation",
+    image: "https://pict.sindonews.net/dyn/850/pena/news/2022/04/23/700/752163/5-rekomendasi-anime-yang-bisa-ditonton-di-aplikasi-bstation-nll.jpg",
+    description: " "
+  },
+  {
+    id: 71,
+    name: "Bstation Sharing - 3 Bulan",
+    price: 9000,
+    originalPrice: 15000,
+    category: "Bstation",
+    image: "https://pict.sindonews.net/dyn/850/pena/news/2022/04/23/700/752163/5-rekomendasi-anime-yang-bisa-ditonton-di-aplikasi-bstation-nll.jpg",
+    description: " "
+  },
+  {
+    id: 72,
+    name: "Bstation Sharing - 12 Bulan",
+    price: 15000,
+    originalPrice: 25000,
+    category: "Bstation",
+    image: "https://pict.sindonews.net/dyn/850/pena/news/2022/04/23/700/752163/5-rekomendasi-anime-yang-bisa-ditonton-di-aplikasi-bstation-nll.jpg",
+    description: " "
+  },
+  {
+    id: 73,
+    name: "Drakor.id Sharing - 1 Bulan",
+    price: 8000,
+    originalPrice: 16000,
+    category: "Drakor.id",
+    image: "https://th.bing.com/th/id/OIP.Tb0_8BtQxzqqcvD0H_kyqQHaHa?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 74,
+    name: "Drakor.id Sharing - 3 Bulan",
+    price: 12000,
+    originalPrice: 24000,
+    category: "Drakor.id",
+    image: "https://th.bing.com/th/id/OIP.Tb0_8BtQxzqqcvD0H_kyqQHaHa?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 75,
+    name: "Drakor.id Sharing - 6 Bulan",
+    price: 18000,
+    originalPrice: 36000,
+    category: "Drakor.id",
+    image: "https://th.bing.com/th/id/OIP.Tb0_8BtQxzqqcvD0H_kyqQHaHa?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 76,
+    name: "Drakor.id Sharing - 12 Bulan",
+    price: 30000,
+    originalPrice: 60000,
+    category: "Drakor.id",
+    image: "https://th.bing.com/th/id/OIP.Tb0_8BtQxzqqcvD0H_kyqQHaHa?rs=1&pid=ImgDetMain",
+    description: " "
+  },
+  {
+    id: 77,
+    name: "Get Contact Private - 1 Bulan",
+    price: 18000,
+    originalPrice: 36000,
+    category: "GetContact",
+    image: "https://dexatel.com/images/customer/13/cover/getcontact.webp",
+    description: "Hanya butuh nomor cust (yg mau dipremin). Sama-sama stay (wajib janjian sebelumnya mau stay jam berapa karena harus login). Full garansi sesuai durasi."
+  },
+  {
+    id: 78,
+    name: "Prime video 4U",
+    price: 6000,
+    originalPrice: 8000,
+    category: "prime",
+    image: "https://play-lh.googleusercontent.com/Uyk7DkQElC-0OfJCOHZLIgnQ0ulHoEC06d9ENRklNh-0t6nrFc6mqmpRMajoVU3Yt9w",
+    description: ""
+  },
+  {
+    id: 79,
+    name: "Prime video 3U",
+    price: 9000,
+    originalPrice: 10000,
+    category: "prime",
+    image: "https://play-lh.googleusercontent.com/Uyk7DkQElC-0OfJCOHZLIgnQ0ulHoEC06d9ENRklNh-0t6nrFc6mqmpRMajoVU3Yt9w",
+    description: ""
+  },
+  {
+    id: 80,
+    name: "Prime video private",
+    price: 15000,
+    originalPrice: 19000,
+    category: "prime",
+    image: "https://play-lh.googleusercontent.com/Uyk7DkQElC-0OfJCOHZLIgnQ0ulHoEC06d9ENRklNh-0t6nrFc6mqmpRMajoVU3Yt9w",
+    description: ""
+  },
+  {
+    id: 81,
+    name: "Disney+ Hotstar Basic Plan - 1 Day",
+    price: 4000,
+    originalPrice: 5000,
+    category: "Disney+ Hotstar",
+    image: "https://thinglabs.io/wp-content/uploads/2e3d33fc0eefc265131cc02158c1c69a_4096x2303_0d094a0f1-scaled.jpg",
+    description: ""
+  },
+  {
+    id: 82,
+    name: "Disney+ Hotstar Basic Plan - 3 Days",
+    price: 8000,
+    originalPrice: 10000,
+    category: "Disney+ Hotstar",
+    image: "https://thinglabs.io/wp-content/uploads/2e3d33fc0eefc265131cc02158c1c69a_4096x2303_0d094a0f1-scaled.jpg",
+    description: ""
+  },
+  {
+    id: 83,
+    name: "Disney+ Hotstar Basic Plan - 7 Days",
+    price: 15000,
+    originalPrice: 20000,
+    category: "Disney+ Hotstar",
+    image: "https://thinglabs.io/wp-content/uploads/2e3d33fc0eefc265131cc02158c1c69a_4096x2303_0d094a0f1-scaled.jpg",
+    description: ""
+  },
+  {
+    id: 84,
+    name: "Disney+ Hotstar Basic Plan - 6U 1 Month",
+    price: 27000,
+    originalPrice: 35000,
+    category: "Disney+ Hotstar",
+    image: "https://thinglabs.io/wp-content/uploads/2e3d33fc0eefc265131cc02158c1c69a_4096x2303_0d094a0f1-scaled.jpg",
+    description: ""
+  },
+  {
+    id: 85,
+    name: "Disney+ Hotstar Basic Plan - 5U 1 Month",
+    price: 35000,
+    originalPrice: 45000,
+    category: "Disney+ Hotstar",
+    image: "https://thinglabs.io/wp-content/uploads/2e3d33fc0eefc265131cc02158c1c69a_4096x2303_0d094a0f1-scaled.jpg",
+    description: ""
+  },
+  {
+    id: 86,
+    name: "Disney+ Hotstar Basic Plan - 3U 1 Month",
+    price: 40000,
+    originalPrice: 50000,
+    category: "Disney+ Hotstar",
+    image: "https://thinglabs.io/wp-content/uploads/2e3d33fc0eefc265131cc02158c1c69a_4096x2303_0d094a0f1-scaled.jpg",
+    description: "3U 1 month - 40k"
+  },
+  {
+    id: 87,
+    name: "Disney+ Hotstar Basic Plan - Private Basic 1 Month",
+    price: 85000,
+    originalPrice: 100000,
+    category: "Disney+ Hotstar",
+    image: "https://thinglabs.io/wp-content/uploads/2e3d33fc0eefc265131cc02158c1c69a_4096x2303_0d094a0f1-scaled.jpg",
+    description: ""
+
+  },
+  {
+    id: 88,
+    name: "Disney+ Hotstar prem Plan - Private prem 1 Month",
+    price: 100000,
+    originalPrice: 200000,
+    category: "Disney+ Hotstar",
+    image: "https://thinglabs.io/wp-content/uploads/2e3d33fc0eefc265131cc02158c1c69a_4096x2303_0d094a0f1-scaled.jpg",
+    description: ""
   }
-];
+  ];
