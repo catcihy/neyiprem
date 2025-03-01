@@ -719,7 +719,7 @@ const products = [
     image: "https://play-lh.googleusercontent.com/Uyk7DkQElC-0OfJCOHZLIgnQ0ulHoEC06d9ENRklNh-0t6nrFc6mqmpRMajoVU3Yt9w",
     description: ""
   },
-{
+  {
     id: 81,
     name: "Disney+ Hotstar Basic Plan - 1 Day",
     price: 4000,
@@ -792,7 +792,7 @@ const products = [
     image: "https://thinglabs.io/wp-content/uploads/2e3d33fc0eefc265131cc02158c1c69a_4096x2303_0d094a0f1-scaled.jpg",
     description: ""
   },
-      {
+  {
     id: 88,
     name: "Disney+ Hotstar prem Plan - Private prem 1 Month",
     price: 100000,
