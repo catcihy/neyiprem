@@ -706,7 +706,7 @@ const products = [
     name: "Prime video 3U",
     price: 9000,
     originalPrice: 10000,
-    category: "primw",
+    category: "prime",
     image: "https://play-lh.googleusercontent.com/Uyk7DkQElC-0OfJCOHZLIgnQ0ulHoEC06d9ENRklNh-0t6nrFc6mqmpRMajoVU3Yt9w",
     description: ""
   },
@@ -715,7 +715,7 @@ const products = [
     name: "Prime video private",
     price: 15000,
     originalPrice: 19000,
-    category: "primw",
+    category: "prime",
     image: "https://play-lh.googleusercontent.com/Uyk7DkQElC-0OfJCOHZLIgnQ0ulHoEC06d9ENRklNh-0t6nrFc6mqmpRMajoVU3Yt9w",
     description: ""
   },
